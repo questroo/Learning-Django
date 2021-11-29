@@ -26,3 +26,6 @@ def contact(request):
 
 def blog(request):
     return render(request, 'blog.html')
+    
+def memes(request):
+    return render(request, 'memes.html')
