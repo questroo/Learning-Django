@@ -1,4 +1,18 @@
 {% extends "base.html" %}
+{% load static %}
+
+{%block title%} Memes {%endblock title%}
+{%block memesactive%}active{%endblock memesactive%}
 
 {% block body %}
+<div class="container">
+    <div class="text-center my-4">
+        <img src="/static/img/jackiechan.jpg" class="rounded" alt="...">
+    </div>
+    <div class="text-center my-4">
+        <img src="/static/img/ok.jpg" class="rounded" alt="...">
+    </div>
+</div>
+
+
 {% endblock body %}
